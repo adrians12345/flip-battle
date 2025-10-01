@@ -1,0 +1,21 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEyMzQ1LCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4MTIzLi4uIn0",
+    "payload": "eyJkb21haW4iOiJmbGlwYmF0dGxlLnh5eiJ9",
+    "signature": "MHg..."
+  },
+  "frame": {
+    "version": "next",
+    "imageUrl": "https://flipbattle.xyz/og-image.png",
+    "button": {
+      "title": "Play Flip Battle",
+      "action": {
+        "type": "launch_frame",
+        "name": "Flip Battle",
+        "url": "https://flipbattle.xyz",
+        "splashImageUrl": "https://flipbattle.xyz/splash.png",
+        "splashBackgroundColor": "#1e40af"
+      }
+    }
+  }
+}
