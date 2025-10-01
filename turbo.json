@@ -1,0 +1,34 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [".next/**", "!.next/cache/**", "out/**"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {
+      "dependsOn": ["^lint"]
+    },
+    "test": {
+      "dependsOn": ["^build"]
+    },
+    "contracts:build": {
+      "outputs": ["contracts/out/**", "contracts/cache/**"]
+    },
+    "contracts:test": {
+      "dependsOn": ["contracts:build"],
+      "cache": false
+    },
+    "contracts:deploy:testnet": {
+      "dependsOn": ["contracts:build"],
+      "cache": false
+    },
+    "contracts:deploy:mainnet": {
+      "dependsOn": ["contracts:build"],
+      "cache": false
+    }
+  }
+}
