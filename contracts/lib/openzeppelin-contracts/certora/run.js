@@ -40,7 +40,7 @@ if (argv._.length == 0 && !argv.all) {
   process.exitCode = 1;
 } else {
   Promise.all(
-    (argv.all ? glob.sync(pattern) : argv._.map(name => (fs.existsSync(name) ? name : pattern.replace('*', name)))).map(
+    (argv.all ? glob.sync(pattern) : argv._.map(name => (fs.existsSync(name) ? name : pattern.replace(/\*/g, name)))).map(
       (conf, i, { length }) =>
         limit(
           () =>
