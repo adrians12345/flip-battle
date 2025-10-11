@@ -6,6 +6,8 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { State, WagmiProvider } from 'wagmi';
 
 import { config, projectId } from '@/lib/web3';
+import { Web3InboxProvider } from '@/providers/Web3InboxProvider';
+import { walletKitService } from '@/lib/walletkit';
 
 // Setup queryClient
 const queryClient = new QueryClient();
@@ -34,13 +36,18 @@ export function Web3Provider({
           '--w3m-border-radius-master': '8px',
         }
       });
+
+      // Initialize WalletKit service for enhanced features
+      walletKitService.initialize().catch(console.error);
     }
   }, []);
 
   return (
     <WagmiProvider config={config} initialState={initialState}>
       <QueryClientProvider client={queryClient}>
-        {children}
+        <Web3InboxProvider>
+          {children}
+        </Web3InboxProvider>
       </QueryClientProvider>
     </WagmiProvider>
   );

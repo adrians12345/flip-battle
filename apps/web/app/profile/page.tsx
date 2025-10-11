@@ -5,6 +5,7 @@ import { ConnectButton } from '@/components/ConnectButton';
 import { StatsDisplay } from '@/components/StatsDisplay';
 import { StreakTracker } from '@/components/StreakTracker';
 import { ReferralDashboard } from '@/components/ReferralDashboard';
+import { TransactionHistory } from '@/components/TransactionHistory';
 import { useUserStats } from '@/hooks/useFlipBattle';
 import { useCurrentStreak } from '@/hooks/useStreakManager';
 import { useReferralCount } from '@/hooks/useReferralSystem';
@@ -211,6 +212,16 @@ export default function ProfilePage() {
           transition={{ delay: 0.3 }}
         >
           <ReferralDashboard />
+        </motion.div>
+
+        {/* Transaction History (WalletConnect Blockchain API) */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4 }}
+          className="mt-8"
+        >
+          <TransactionHistory />
         </motion.div>
       </section>
     </main>

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(bun add:*)",
+      "WebFetch(domain:docs.base.org)",
+      "Bash(chmod:*)",
+      "Bash(forge build)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
