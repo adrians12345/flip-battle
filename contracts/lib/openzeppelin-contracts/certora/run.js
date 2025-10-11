@@ -48,7 +48,7 @@ if (argv._.length == 0 && !argv.all) {
               if (argv.verbose) console.log(`[${i + 1}/${length}] Running ${conf}`);
               execFile('certoraRun', [conf], (error, stdout, stderr) => {
                 const match = stdout.match(
-                  'https://prover\.certora\.com/output/[a-z0-9]+/[a-z0-9]+[?]anonymousKey=[a-z0-9]+',
+                  'https://prover\\.certora\\.com/output/[a-z0-9]+/[a-z0-9]+[?]anonymousKey=[a-z0-9]+',
                 );
                 if (error) {
                   console.error(`[ERR] ${conf} failed with:\n${stderr || stdout}`);
