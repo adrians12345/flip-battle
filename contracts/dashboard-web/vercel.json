@@ -1,0 +1,9 @@
+{
+  "buildCommand": "cd dashboard-web && bun install && bun run build",
+  "outputDirectory": "dashboard-web/.next",
+  "framework": "nextjs",
+  "env": {
+    "NEXT_PUBLIC_CONTRACT_ADDRESS": "@activity_contract_address",
+    "NEXT_PUBLIC_WALLET_ADDRESS": "@activity_wallet_address"
+  }
+}
